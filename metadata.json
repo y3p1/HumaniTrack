@@ -1,0 +1,8 @@
+{
+  "name": "Employee Time Tracker",
+  "description": "A modern employee time tracking and attendance application with selfie verification and live team mapping.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
