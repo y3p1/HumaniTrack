@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Screen } from './types';
-import Dashboard from './components/Dashboard';
-import SelfieVerification from './components/SelfieVerification';
-import AttendanceLogs from './components/AttendanceLogs';
+import { Screen } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import SelfieVerification from './components/SelfieVerification.tsx';
+import AttendanceLogs from './components/AttendanceLogs.tsx';
 
 const App: React.FC = () => {
   const [currentScreen, setCurrentScreen] = useState<Screen>(Screen.Dashboard);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Screen } from '../types';
+import { Screen } from '../types.ts';
 
 interface DashboardProps {
   navigate: (screen: Screen) => void;

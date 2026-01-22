@@ -1,5 +1,5 @@
 import React from 'react';
-import { Screen, AttendanceRecord } from '../types';
+import { Screen, AttendanceRecord } from '../types.ts';
 
 const MOCK_RECORDS: AttendanceRecord[] = [
     { id: 1, name: 'Marcus Chen', time: '08:02 AM', location: 'HQ OFFICE', locationType: 'HQ OFFICE', status: 'CLOCK IN', avatarUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBzis7_I1g86nsJOYv06EMB4fAmyFxCQqhw1N6Wq0gGE99lp4h8lbdhEjtMpNwF3cdGz_X-lj_zjPxSrNTD_lCN9ipJZZxXeE_epvS7vWLoAsnJYmIDgey0YoH7KL54V21xumIyNajxESJyNI4BZ4KKhQB-LW8Y31cJd90JmmNBc61y9X1WkS7YApcP0NzIDvWcg73ZUAtMx3vFBo_1vY7Q_OkDsJZ_-E8QWGKMJukj3oWWiDEEZ38liW5gC2YeQRSYZDa0QTI5Voo' },
